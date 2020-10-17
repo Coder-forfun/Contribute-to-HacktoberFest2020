@@ -1,0 +1,17 @@
+STEPS:
+
+                1.If First=NULL then {print “List empty” STOP};
+
+                2.count=0;
+
+                3.ptr=First;  {point ptr to the 1st node}
+
+                4.While ptr<> NULL repeat Steps 5 to 6
+
+                5.count=count+1;
+
+                6.ptr=NEXT(ptr)  [shift ptr to the next node]
+
+                7.print (‘Number of nodes=’, count)
+
+                8.END
