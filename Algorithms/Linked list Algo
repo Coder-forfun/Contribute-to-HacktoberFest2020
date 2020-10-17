@@ -1,0 +1,25 @@
+STEPS:
+
+                1.first=new node;{create the 1st  node of the list pointed by  first};
+
+                2.Read(Data(first));
+
+                3.NEXT(First)=NULL;
+
+                4.Far a First;   [point Far to the First]
+
+                5. For I=1 to N-1 repeat steps 6 to 10
+
+                6.X=new node;
+
+                7.Read(Data(X))
+
+                8.NEXT(X)=NULL;
+
+                9.NEXT(Far)=X;   {connect the nodes}
+
+                10.Far=X;[shift the pointer to the last node of the list]
+
+                                [end of For Loop]
+
+                11.END
